@@ -35,7 +35,7 @@ colnames(shp)
 
 ## Plot data
 ```{r}
-plot(shp_1$geometry)
+plot(shp$geometry)
 ```
 
 
