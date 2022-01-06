@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.751.1" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=palmyra_project,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Palmyra Atoll dissolved organic carbon sampling locations and values</title>
+    <creator>
+      <individualName>
+        <givenName>Kevin</givenName>
+        <surName>Lafferty</surName>
+      </individualName>
+      <organizationName>U.S. Geological Survey</organizationName>
+      <electronicMailAddress>lafferty@ucsb.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-7583-4593</userId>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Camila</givenName>
+        <surName>Vargas Poulsen</surName>
+      </individualName>
+      <organizationName>PADL Data Manager, Univerity of California Santa Barbara</organizationName>
+      <electronicMailAddress>camilavargas@ucsb.edu</electronicMailAddress>
+      <role>associated party</role>
+    </associatedParty>
+    <pubDate>2022-01-06</pubDate>
+    <abstract>
+      <para>
+    This package provides data for Dissolved organic carbon (DOC)
+    sampling locations and values.
+  </para>
+      <para>
+    DOC was sampled at 12 sites to compare DOC export in native and
+    non-native canopies
+  </para>
+      <para>
+    Palmyra Atoll in 2019.
+  </para>
+      <para>
+    Two samples were taken 50 m apart at each site. Three comparison
+    samples were taken from surface waters offshore of the atoll, on the
+    forereef, and from lagoon away from shore. Samples were processed
+    and sent to a lab for analysis.
+  </para>
+    </abstract>
+    <keywordSet>
+      <keyword>Palmyra Atoll</keyword>
+      <keyword>Dissolved Organic Carbon</keyword>
+      <keyword>Water Chemistry</keyword>
+      <keyword>Carbon</keyword>
+      <keywordThesaurus>none</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Palmyra Atoll</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-162.083</westBoundingCoordinate>
+          <eastBoundingCoordinate>-162.043</eastBoundingCoordinate>
+          <northBoundingCoordinate>5.88333</northBoundingCoordinate>
+          <southBoundingCoordinate>5.871</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2019</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2019</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Kevin</givenName>
+        <surName>Lafferty</surName>
+      </individualName>
+      <organizationName>U.S. Geological Survey</organizationName>
+      <electronicMailAddress>lafferty@ucsb.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-7583-4593</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>DOC was sampled at 12 sites to compare DOC export in native and non-native canopies, though this sample size was deemed too small to try to model DOC concentrations under the future transformation scenario. Sites were chosen to represent different parts of the atoll, shorelines facing different directions (N, S, E, W), different canopy types and different C. nucifera removal schedules. Because metabolism by marine organisms can alter DOC flux, and respiration and photosynthesis are affected by temperature and light, three HOBO Pendant® Temperature/Light Data Loggers were place on the shoreline for 24 hours at each DOC site, and at least one logger returned air temperature and lux each minute for each site (we report the average daily value per site across all functioning loggers). Lux was converted to relative lux by dividing values at a site by values at an unshaded site. To confirm that shading reduced water temperature in the nearshore, we compared four submerged shaded loggers with two submerged unshaded loggers.
+            
+            Two samples were taken 50 m apart at each site. Three comparison samples (expected to be low in terrestrial influence) were taken from surface waters offshore of the atoll, on the forereef and from lagoon away from shore. Water samples were collected in new quart Ziploc bags with powder free gloves and put on ice after collection. To process DOC, Luer lock syringes were filled with 5% HCl for > 1 hour, then rinsed 2 more times with acid, then rinsed with distilled water before use. Filter holders were similarly soaked in 5% HCl and rinsed. The DOC filtering procedure involved drawing 60 ml of water from the sample bag into a syringe as a rinse and then then drawing a second 60 ml for the sample. A combusted GF75 filter was loaded into a clean 25 mm plastic filter holder and connected to the syringe. The syringe was used to filter 30 ml of sample to rinse an acid-washed collection vial three times. The last 30ml was inserted into the vial and the vial was capped. One filter was used per site. Filtered samples were acidified to pH 2- by adding 50ul 4N HCl, then agitated to mix. Samples were stored and shipped to Dr. Craig Carlson’s lab at the University of California, Santa Barbara for analysis. Samples were analyzed via high temperature combustion method on a modified Shimadzu TOC-V or Shimadzu TOC-L using the standardization and referencing approaches described in (Carlson et al., 2010); detection limit was roughly 1 μmol C L–1.
+          </para>
+          <para>
+            Additionally, the .csv file has more information about
+            each sample.
+          </para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>No project title to report</title>
+      <personnel>
+        <individualName>
+          <givenName>Alex</givenName>
+          <surName>Wegmann</surName>
+        </individualName>
+        <organizationName>The Nature Conservancy</organizationName>
+        <electronicMailAddress>alex.wegmann@tnc.org</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>Wildlife Conservation Society Climate Adaptation Fund</funding>
+    </project>
+    <dataTable>
+      <entityName>Palmyra Atoll DOC  Sample attributes 2019</entityName>
+      <entityDescription>Values and characteristics of DOC sampling sites</entityDescription>
+      <physical>
+        <objectName>palmyra_atoll_doc_sample_info_2019.csv</objectName>
+        <size unit="bytes">1194</size>
+        <authentication method="MD5">ce50fd62707fe5ef94e3e5fc005cf45d</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site_name</attributeName>
+          <attributeDefinition>This describes the name of the site from which the sample was taken</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>This describes the name of the site from which the sample was taken</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>canopy_typ</attributeName>
+          <attributeDefinition>Describes whether the vegetation closest to the sample was native or non-native (cocos)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>cocos</code>
+                    <definition>vegetation closest to sample is not native</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>native</code>
+                    <definition>vegetation closest to sample is native</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>management</attributeName>
+          <attributeDefinition>Describes the vegetation management regime at each sampling site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Describes the vegetation management regime at each sampling site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>facing</attributeName>
+          <attributeDefinition>Describes the direction the exposed shoreline of the sampling site is facing</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Describes the direction the exposed shoreline of the sampling site is facing</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeDefinition>Date on which the sample was collected</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>latitude</attributeName>
+          <attributeDefinition>Latitude of sampling location</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">5.87326</minimum>
+                  <maximum exclusive="false">5.89063</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>longitude</attributeName>
+          <attributeDefinition>Longitude of sampling location</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-162.10373</minimum>
+                  <maximum exclusive="false">-162.05229</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>habitat</attributeName>
+          <attributeDefinition>Habitat type at the sampling location</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Habitat type at the sampling location</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>collector</attributeName>
+          <attributeDefinition>Last name of sample collector</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Last name of sample collector</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>loc_mean</attributeName>
+          <attributeDefinition>Mean DOC value for all samples at a location. Micomoles of carbon</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromoles</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">68.6353</minimum>
+                  <maximum exclusive="false">219.279</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>12</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>Shapefiles with geospatil data</entityName>
+      <entityDescription>zip file with all necessary files to read in the location of the sampling for this project</entityDescription>
+      <physical>
+        <objectName>palmyra_atoll_doc_sample_shapefiles_2019.zip</objectName>
+        <size unit="bytes">3663</size>
+        <authentication method="MD5">943be11459403d9472cebe5e00f4e25e</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="degree" name="degree" parentSI="radian" unitType="angle">
+          <description>360 degrees comprise a unit circle.</description>
+        </unit>
+        <unit id="micromoles" name="micromoles" parentSI="mole" unitType="amount">
+          <description>micromoles</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
