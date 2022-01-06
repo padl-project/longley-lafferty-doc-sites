@@ -39,13 +39,23 @@ plot(shp$geometry)
 ```
 
 
+## Selecting drecriptive variables
+```{r}
+shp_final <- shp %>% 
+  clean_names() %>%
+  as_tibble() %>% 
+  select(-geometry) %>% 
+  mutate(date = as.Date(date, format = "%d-%b-%y"))
+
+```
+
+
 
 ## Save as a data_object
 ```{r}
 
-dir.create(paste0(getwd(),"/7.clean_data"))
 
-write_csv(shp_1, here::here("7.clean_data/2016_and_2019_soil_wood_samples_loc.csv"))
+write_csv(shp_final, here::here("7.clean_data/palmyra_atoll_doc_sample_2019.csv"))
 
 ```
 
